@@ -1,6 +1,6 @@
 # Drift Detection and Embedding Tracking Framework
 
-This project provides a framework for detecting data drift and tracking embedding distributions using various vector-based and distribution-based metrics. It supports multiple models, datasets, and drift strengths, enabling comprehensive experiments and visualizations.
+This project provides a framework for detecting data drift and tracking embedding distributions using various vector-based and distribution-based metrics. It supports multiple models, datasets, and drift strengths, enabling experiments and visualisations.
 
 ---
 
@@ -8,8 +8,8 @@ This project provides a framework for detecting data drift and tracking embeddin
 
 - **Drift Detection**: Supports both vector-based and distribution-based metrics for detecting data drift.
 - **Embedding Tracking**: Tracks embeddings using KLL sketches, histograms, and PCA-based dimensionality reduction.
-- **Metrics**: Includes metrics like KL divergence, Jensen-Shannon divergence, Wasserstein distance, and more.
-- **Visualization**: Generates detailed plots for analyzing drift detection results.
+- **Metrics**: Includes metrics such as KL divergence, Jensen-Shannon divergence, Wasserstein distance, and others.
+- **Visualisation**: Generates detailed plots for analysing drift detection results.
 - **Extensibility**: Easily add new models, datasets, or metrics.
 
 ---
@@ -21,7 +21,7 @@ This project provides a framework for detecting data drift and tracking embeddin
 - `drift_detection.py`: Implements drift detection using both vector-based and distribution-based approaches.
 - `embedding_tracker.py`: Tracks embeddings and computes distances using various methods.
 - `metrics.py`: Defines vector-based and distribution-based metrics.
-- `plot.py`: Generates visualizations for experiment results.
+- `plot.py`: Generates visualisations for experiment results.
 - `utils.py`: Utility functions for data loading, embedding extraction, and drift introduction.
 
 ### Configuration
@@ -66,13 +66,13 @@ python drift_detection.py
 ```
 
 ### Generating Plots
-To generate visualizations for experiment results:
+To generate visualisations for experiment results:
 ```bash
 python plot.py
 ```
 
 ### Configuration
-Modify `config.py` to customize models, datasets, and experiment parameters.
+Modify `config.py` to customise models, datasets, and experiment parameters.
 
 ---
 
