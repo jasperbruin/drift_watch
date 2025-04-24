@@ -2,6 +2,9 @@
 
 This project provides a framework for detecting data drift and tracking embedding distributions using various vector-based and distribution-based metrics. It supports multiple models, datasets, and drift strengths, enabling experiments and visualisations.
 
+This provides a high-level workflow of using LLMs and DL experiments, creating embeddings, testing vectors and distribution-based drifts on synthetic and real-world streams.  
+![High-level workflow](images/workflow0.png)
+
 ---
 
 ## Features
@@ -93,3 +96,21 @@ Modify `config.py` to customise models, datasets, and experiment parameters.
 # Baseline Experiment 
 The baseline experiment is located at `/baseline-experiment/`. It contains the following files:
 - `baseline_experiment.py`: The main script for running the baseline experiment. This file needs to have the amazon dataset downloaded and unzipped together with the product mapper in the `data/` directory. 
+
+Here's how you can update your README with the provided image descriptions and paths from your GitLab repo. I’ll insert a new section after the **Outputs** section, and format the image markdown for clarity:
+
+---
+
+## Visual Overview
+
+This section provides visualizations illustrating concepts and workflows from the framework:
+
+**Image 1**: Controlled Simulation of Embedding Drift. Text data is shuffled token-wise for LLMs, while tabular features undergo incremental shifts for DeepFM.  
+![Controlled Simulation of Embedding Drift](images/workflow1.png)
+
+**Image 2**: Embedding Drift Detection via Full and Compressed Representations. Comparison of histograms and KLL-based summaries for detecting embedding shifts.  
+![Embedding Drift Detection](images/workflow2.png)
+
+**Image 3**: Distance-Based Embedding Drift Detection. Geometric shifts tracked over time using distance metrics.  
+![Distance-Based Embedding Drift Detection](images/workflow3.png)
+
