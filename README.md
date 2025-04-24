@@ -56,7 +56,7 @@ python distribution_experiment.py
 
 or 
 ```bash
-python python vector_experiment.py
+python vector_experiment.py
 ```
 
 Run the `drift_detection.py` script to evaluate both vector-based and distribution-based metrics:
