@@ -48,7 +48,7 @@ Install dependencies:
 
 ## Usage
 
-### Running Distribution-Based Experiments
+### Running Experiments
 Run the `distribution_experiment.py` script to evaluate distribution-based metrics:
 ```bash
 python distribution_experiment.py
@@ -59,7 +59,6 @@ or
 python python vector_experiment.py
 ```
 
-### Running Drift Detection
 Run the `drift_detection.py` script to evaluate both vector-based and distribution-based metrics:
 ```bash
 python drift_detection.py
