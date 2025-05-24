@@ -16,3 +16,12 @@ baseline-experiment/data/product_id_mapper.json
 *.iml
 *.xml
 /batch_results
+distribution_metrics.png
+distribution_metrics.py
+kl_divergence_metric.png
+metrics_visualization.png
+mmd_metric.png
+vector_metrics.png
+vector_metrics.py
+virtual_vs_real_drift.gif
+wasserstein_metric.png
